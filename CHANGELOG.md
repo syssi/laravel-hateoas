@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-hateoas` will be documented in this file
 
+## 2.4.0 - 2025-07-14
+
+- Add Laravel 12 support ([#42](https://github.com/gdebrauwer/laravel-hateoas/pull/42))
+
 ## 2.3.0 - 2024-12-12
 
 - Add PHP 8.4 support ([#41](https://github.com/gdebrauwer/laravel-hateoas/pull/41))
