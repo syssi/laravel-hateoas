@@ -69,8 +69,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer require "laravel/framework:${{ matrix.laravel }}" --no-interaction --no-update
-          composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction --no-suggest
+          composer require "laravel/framework:${{ matrix.laravel }}" --no-interaction --no-update --no-blocking
+          composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction --no-suggest --no-blocking
 
       - name: Execute tests
         run: vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
